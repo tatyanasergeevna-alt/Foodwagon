@@ -1,0 +1,521 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("/fonts/ofont.ru_Source\ Sans\ Pro.ttf");
+}
+
+@font-face {
+  font-family: "Open sans";
+  src: url("/fonts/ofont.ru_Open\ Sans.ttf");
+}
+
+.body {
+  max-width: 1920px;
+  background-color: white;
+}
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 1920px;
+  height: 78px;
+  color: white;
+}
+
+.logo {
+  margin-left: 220px;
+}
+
+.deliver {
+  margin-left: 223px;
+  display: flex;
+  align-items: center;
+}
+
+.text1 {
+  font-family: "Source Sans Pro";
+  color: black; /* Цвет текста */
+}
+
+.map-marker-alt {
+  margin-left: 9px;
+}
+
+.currentLocation {
+  font-family: "Open sans";
+  color: black; /* Цвет текста */
+  padding-left: 8px;
+}
+
+text2 {
+  font-family: "Open sans";
+  text-decoration: none;
+  color: black;
+  padding-left: 4px;
+  text-decoration-line: none;
+}
+
+.input-container-search {
+  display: flex;
+  align-items: center; /* Центрирует элементы по вертикали */
+  width: 98px;
+  height: 18px;
+  margin-left: 223px;
+  margin-right: 30px;
+  border: none;
+}
+
+.input-icon-search {
+  margin-right: 8; /* Отступ между изображением и текстом */
+}
+
+.input-field-search {
+  padding-left: 10px; /* Отступ текста от левого края инпута */
+  font-size: 18px;
+  border: none;
+  color: black;
+  font-family: "Source Sans Pro";
+}
+
+.loginButton {
+  width: 118px;
+  height: 46px;
+  border: none;
+  border-radius: 8px;
+  color: #f17228;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  background-color: white;
+}
+
+.user {
+  margin-right: 10px;
+}
+
+.rectangle {
+  width: 100%;
+  height: auto;
+}
+
+.starving {
+  display: flex;
+  position: absolute;
+  top: 210px;
+  left: 220px;
+  width: 666px;
+  height: 88px;
+  color: white; /* Цвет текста */
+  font-size: 84px; /* Размер шрифта */
+  font-family: "Source Sans Pro";
+}
+
+.p1 {
+  display: flex;
+  position: absolute;
+  top: 313px; /* Отступ сверху */
+  left: 220px; /* Отступ слева */
+  color: #504f4f; /* Цвет текста */
+  font-size: 26px; /* Размер шрифта */
+
+  margin-bottom: 32px;
+  font-family: "Open sans";
+}
+
+.order {
+  position: absolute;
+  top: 371px; /* Отступ сверху */
+  left: 220px; /* Отступ слева */
+  background-color: white; /* Полупрозрачный фон для читаемости */
+  width: 856px;
+  height: 194.44px;
+  border-radius: 16px;
+}
+
+.button1 {
+  width: 148px;
+  height: 38px;
+  background-color: rgba(241, 114, 40, 0.1);
+  border-radius: 8px;
+  margin-left: 24px;
+  margin-top: 24px;
+  border: none;
+  color: #f17228;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.button2 {
+  width: 129px;
+  height: 38px;
+  background-color: white;
+  border: none;
+  color: #757575;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+}
+
+.Icon2 {
+  margin-right: 10px;
+}
+
+.Icon {
+  margin-right: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center; /* Центрирует элементы по вертикали */
+  width: 593px;
+  height: 49px;
+  background-color: #f5f5f5;
+  color: #9e9e9e;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  margin-top: 48px;
+  position: absolute;
+  border-radius: 8px;
+}
+
+.input-icon {
+  margin-right: 4.5px; /* Отступ между изображением и текстом */
+  margin-left: 16px;
+}
+
+.input-field {
+  padding-left: 10px; /* Отступ текста от левого края инпута */
+  font-size: 25px;
+  border: none;
+  color: #9e9e9e;
+  background-color: #f5f5f5;
+  font-family: "Open sans";
+}
+
+.button3 {
+  width: 199px;
+  height: 60px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  margin-left: 633px;
+  margin-top: 48px;
+  background: linear-gradient(72deg, #ff7a7a, #f65900);
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  position: absolute;
+}
+
+.base {
+  position: absolute;
+  top: 260px; /* Отступ сверху */
+  left: 1098px; /* Отступ слева */
+  align-items: center;
+  display: flex;
+}
+
+.products-items-flash {
+  display: grid;
+  grid-template-columns: repeat(4, 357px); /* 4 колонки */
+  gap: 16px; /* Отступ между карточками */
+  margin-top: 80px;
+  margin-left: 222.17px;
+}
+
+.products-item-image-flash {
+  text-align: center;
+}
+
+.products-item-title-flash {
+  color: black;
+  font-size: 26px;
+  font-family: "Source Sans Pro";
+}
+
+.products-item-text-flash {
+  width: 204px;
+  height: 42px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(229, 118, 54, 0.2);
+  color: #f17228;
+  font-size: 26px;
+  font-family: "Source Sans Pro";
+}
+
+.work {
+  width: 1920px;
+  height: 518px;
+  background-image: linear-gradient(to bottom, #ffce67, #fdedca);
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.work-title {
+  padding-top: 80px;
+  text-align: center;
+  color: #f17228;
+  font-size: 48px;
+  font-family: "Source Sans Pro";
+}
+
+.works-items {
+  display: grid;
+  grid-template-columns: repeat(4, 307px); /* 4 колонки */
+  gap: 32px; /* Отступ между карточками */
+  margin-top: 80px;
+  margin-left: 222.17px;
+}
+
+.works-item-image {
+  max-width: 100%; /* Ограничиваем ширину изображения */
+  height: auto; /* Поддерживаем пропорции изображения */
+}
+
+.works-item-details {
+  width: 307px;
+  height: 86px;
+}
+
+.works-item-title {
+  font-family: "Source Sans Pro";
+  color: black;
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.works-item-text {
+  font-family: "Open sans";
+  text-align: center;
+  color: #9e9e9e;
+}
+
+.popular-items {
+  font-family: "Source Sans Pro";
+  font-size: 48px;
+  color: black;
+  text-align: center;
+}
+
+.products-items {
+  display: grid;
+  grid-template-columns: repeat(5, 283px); /* 5 колонок */
+  gap: 16px; /* Отступ между карточками */
+  margin-top: 110px;
+  margin-left: 221px;
+}
+
+.products-item-image {
+  text-align: center;
+}
+
+.food-image {
+  border-radius: 16px;
+  object-fit: cover; /* Чтобы изображение хорошо вписывалось в рамки */
+}
+
+.products-item-title {
+  font-family: "Source Sans Pro";
+  color: black;
+  font-size: 26px;
+}
+
+.products-item-text {
+  font-size: 26px;
+  color: #ffb30e;
+  font-family: "Open sans";
+}
+
+.products-item-price {
+  font-family: "Source Sans Pro";
+  font-size: 26px;
+  color: black;
+}
+
+.button-violet-button {
+  width: 233.5px;
+  height: 60px;
+  background-color: #f17228;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+}
+
+.container-restaurants {
+  width: 1476px;
+  height: 1274px;
+  margin-left: 220px;
+}
+
+.restaurants-title {
+  font-family: "Source Sans Pro";
+  font-size: 48px;
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.restaurants-items {
+  display: grid;
+  grid-template-columns: repeat(4, 357px); /* 4 колонки */
+  gap: 16px; /* Отступ между карточками */
+}
+
+.restaurants-item {
+  height: 463px;
+  padding-bottom: 64px;
+}
+
+.discount {
+  position: relative;
+}
+
+.discount-button {
+  width: 134px;
+  height: 42px;
+  position: absolute;
+  background-color: #f17228;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 26px;
+  top: 24px;
+  left: 24px;
+  margin-right: 8px;
+}
+
+.off {
+  padding-right: 10px;
+}
+
+.fast-button {
+  width: 101px;
+  height: 42px;
+  position: absolute;
+  background-color: #ffb30e;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 26px;
+  top: 24px;
+  left: 166px;
+}
+
+.fast {
+  padding-right: 10px;
+}
+
+.restaurants-image {
+  border-radius: 16px;
+  width: 357px; /* Задайте ширину по желанию */
+  height: 301px; /* Задайте высоту по желанию */
+  object-fit: cover; /* Чтобы изображение хорошо вписывалось в рамки */
+}
+
+.logo-restaurants-cart {
+  width: 196px;
+  height: 138px;
+  display: flex;
+  justify-content: flex-start; /* Выравнивание по верхнему краю */
+}
+
+.logo-restaurants {
+  height: 64px;
+  width: 64px;
+  margin-top: 24px;
+}
+
+.star {
+  padding-left: 24px;
+  padding-top: 28px;
+}
+
+.star-number {
+  display: flex;
+  width: 55px;
+  height: 26px;
+  text-align: center;
+}
+
+.star {
+  width: 25px;
+  height: 23px;
+}
+
+.star-text {
+  color: #ffb30e;
+  font-size: 26px;
+  padding-left: 8px;
+  font-family: "Open sans";
+}
+
+.image-star {
+  width: 106px;
+  height: 56px;
+}
+
+.image-star-2 {
+  width: 89px;
+  height: 56px;
+}
+
+.image-star-3 {
+  width: 108px;
+  height: 56px;
+}
+
+.restaurants-item-title {
+  font-family: "Source Sans Pro";
+  font-size: 26px;
+  width: 108px;
+}
+
+.button-tomorrow {
+  width: 197px;
+  height: 42px;
+  font-size: 26px;
+  font-family: "Source Sans Pro";
+  background-color: rgba(229, 118, 54, 0.2);
+  color: #f17228;
+  border-radius: 16px;
+  border: none;
+}
+
+.button-now {
+  width: 132px;
+  height: 42px;
+  font-size: 26px;
+  font-family: "Source Sans Pro";
+  background-color: rgba(121, 185, 60, 0.2);
+  color: #79b93c;
+  border-radius: 16px;
+  border: none;
+}
+
+.button-view-all {
+  margin-top: 88px;
+  margin-left: 648px;
+  width: 178px;
+  height: 60px;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  color: white;
+  border-radius: 16px;
+  border: none;
+  text-align: center;
+  background: linear-gradient(68deg, #ffba26, #ff9a0e);
+}
