@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: "Source Sans Pro";
-  src: url("/fonts/ofont.ru_Source\ Sans\ Pro.ttf");
+  src: url("../fonts/ofont.ru_Source\ Sans\ Pro.ttf");
 }
 
 @font-face {
   font-family: "Open sans";
-  src: url("/fonts/ofont.ru_Open\ Sans.ttf");
+  src: url("../fonts/ofont.ru_Open\ Sans.ttf");
 }
 
 .body {
