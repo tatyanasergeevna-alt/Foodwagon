@@ -663,10 +663,12 @@ text2 {
   position: absolute;
 }
 
-.feature-text {
+.feature-text-one {
   font-size: 35px;
   font-family: "Source Sans Pro";
   text-align: left;
-  padding-left: 221px;
-  padding-top: 81px;
+  margin-left: 221px;
+  margin-top: 81px;
+  width: 152px;
+  height: 84px;
 }
