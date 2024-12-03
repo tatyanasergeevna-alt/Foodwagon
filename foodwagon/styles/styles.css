@@ -625,6 +625,7 @@ text2 {
 }
 
 .feature-cards {
+  justify-content: space-between;
   display: grid;
   grid-template-columns: repeat(3, 318px); /* 6 колонок по 218px */
   gap: 112.5px; /* Отступ между карточками */
@@ -640,35 +641,21 @@ text2 {
   top: 130px;
 }
 
-.feature-card-one {
-  width: 318px;
-  height: 136px;
+.feature-card {
+  display: flex;
+  align-items: center;
   position: relative;
   margin-top: 55px;
-}
-
-.feature-card-two {
-  width: 282px;
-  height: 136px;
-  margin-top: 55px;
-}
-
-.feature-card-three {
-  width: 296px;
-  height: 136px;
-  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
 .feature-card-image {
-  position: absolute;
+  max-width: 100px; /* Максимальная ширина изображения */
+  margin-right: 30px;
 }
 
-.feature-text-one {
+.feature-text {
+  flex-grow: 1; /* Позволяет описанию занимать оставшееся пространство */
   font-size: 35px;
   font-family: "Source Sans Pro";
-  text-align: left;
-  margin-left: 221px;
-  margin-top: 81px;
-  width: 152px;
-  height: 84px;
 }
