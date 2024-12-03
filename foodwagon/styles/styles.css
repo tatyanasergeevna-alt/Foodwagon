@@ -519,3 +519,154 @@ text2 {
   text-align: center;
   background: linear-gradient(68deg, #ffba26, #ff9a0e);
 }
+
+.search {
+  width: 1924px;
+  height: 571px;
+  background-color: #fefaf1;
+  margin-top: 80px;
+}
+
+.container-search-header {
+  width: 1479px;
+  height: 76px;
+  margin-left: 223px;
+  margin-right: 222px;
+  margin-top: 80px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.search-title {
+  font-size: 26px;
+  font-family: "Source Sans Pro";
+  color: #424242;
+  text-align: left;
+  margin-top: 82px;
+  position: absolute;
+}
+
+.buttons-search-header {
+  margin-top: 82px;
+  padding-left: 893.5px;
+  position: absolute;
+  right: 0;
+}
+
+.view-all-search-food {
+  width: 178px;
+  height: 60px;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  color: #ffb30e;
+  border-radius: 16px;
+  border: none;
+  text-align: center;
+  background-color: #fefaf1;
+}
+
+.arrow-search {
+  padding-left: 10px;
+  padding-right: 26.5px;
+}
+
+.arrow-left {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  border: none;
+  background-color: #faaa01;
+  padding-right: 16px;
+}
+
+.arrow-right {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  border: none;
+  background-color: #faaa01;
+}
+
+.search-items {
+  display: grid;
+  grid-template-columns: repeat(6, 218px); /* 6 колонок по 218px */
+  gap: 34.2px; /* Отступ между карточками */
+  margin-top: 88px;
+  margin-left: 223px;
+  padding-top: 88px;
+}
+
+.search-item {
+  width: 218px;
+  height: 270px;
+}
+
+.search-image {
+  width: 219px;
+  height: 218px;
+  border-radius: 50%;
+}
+
+.search-food-text {
+  color: #424242;
+  font-size: 26px;
+  padding-top: 26px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+}
+
+.feature {
+  display: flex;
+  width: 1924px;
+  height: 456px;
+  background-color: #feefd0;
+  position: relative;
+}
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 318px); /* 6 колонок по 218px */
+  gap: 112.5px; /* Отступ между карточками */
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1230px;
+  height: 246px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 46px;
+  left: 347px;
+  top: 130px;
+}
+
+.feature-card-one {
+  width: 318px;
+  height: 136px;
+  position: relative;
+  margin-top: 55px;
+}
+
+.feature-card-two {
+  width: 282px;
+  height: 136px;
+  margin-top: 55px;
+}
+
+.feature-card-three {
+  width: 296px;
+  height: 136px;
+  margin-top: 55px;
+}
+
+.feature-card-image {
+  position: absolute;
+}
+
+.feature-text {
+  font-size: 35px;
+  font-family: "Source Sans Pro";
+  text-align: left;
+  padding-left: 221px;
+  padding-top: 81px;
+}
